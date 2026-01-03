@@ -1,0 +1,25 @@
+/* Attendance Management Styles */
+.attendance-management .filters-section {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.attendance-management .filters-section select,
+.attendance-management .filters-section input {
+  flex: 1;
+  min-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .attendance-management .filters-section {
+    flex-direction: column;
+  }
+
+  .attendance-management .filters-section select,
+  .attendance-management .filters-section input {
+    width: 100%;
+  }
+}
+
